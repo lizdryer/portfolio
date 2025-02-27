@@ -1,0 +1,138 @@
+@font-face {
+    font-family: Ikaros;
+    src: url(fonts/Ikaros.ttf);
+}
+
+@font-face {
+    font-family: Coolvetica;
+    src: url(fonts/coolvetica\ compressed\ hv.otf);
+}
+
+body {
+    background-color: rgb(20, 20, 20);
+    color: whitesmoke;
+    font-family: Ikaros;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    width: fit-content;
+    border-bottom: 0px solid white;
+    transition: border-bottom .2s, margin-bottom .2s;
+}
+
+a:hover {
+    border-radius: 3px;
+    border-bottom: 3px solid white;
+    margin-bottom: 11px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    font-size: larger;
+    margin: auto;
+    letter-spacing: 3px;
+    width: 100%;
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(36, 36, 36);
+}
+
+.header * {
+    margin: auto;
+    text-align: center;
+}
+
+.maincontent {
+    height: 100%;
+    display: flex;
+}
+
+.subcontent {
+    font-size: larger;
+    margin: auto;
+    letter-spacing: 3px;
+    width: 100%;
+    padding-top: 1vh;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(36, 36, 36);
+    padding-bottom: 15vh;
+}
+
+.subcontent * {
+    margin: auto;
+    text-align: center;
+}
+
+.leftcol {
+    width: 50%;
+    margin: 0px 15px;
+}
+
+.rightcol h1{
+    margin-bottom: 40px;
+}
+
+.rightcol p {
+    text-align: left;
+}
+
+.rightcol {
+    width: 50%;
+    margin: auto 15px;
+}
+
+.leftcol img {
+    width: 100%;
+}
+
+.sidebarcontainer p{
+    width: 320px;
+    display: block;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    width: 290px;
+    height: 100vh;
+    padding-right: 30px;
+    padding-top: 5vh;
+    background-color: rgb(44, 53, 61);
+}
+
+.sidebar img {
+    margin-left: auto;
+    width: 60%;
+    border-radius: 360vw;
+}
+
+.name {
+    font-size: larger;
+    text-align: center;
+    margin-left: auto;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    margin-left: auto;
+}
+
+.nav * {
+    margin-bottom: 14px;
+    margin-left: auto;
+}
