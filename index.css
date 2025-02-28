@@ -2,10 +2,13 @@
     margin: auto;
     font-size: large;
     text-align: center;
+    width: 50%;
+    min-width: 400px;
 }
 
 .subwork {
     width: 90%;
+    min-width: 400px;
     margin: auto;
     margin-bottom: 100px;
     text-align: left;
