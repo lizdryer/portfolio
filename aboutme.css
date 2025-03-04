@@ -1,0 +1,19 @@
+.content img {
+    width: 100%;
+    max-width: 600px;
+    padding-bottom: 50px;
+}
+
+.content * {
+    margin: auto;
+}
+
+h1 {
+    font-size: xxx-large;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+h4 {
+    margin-left: 20px !important;
+}
