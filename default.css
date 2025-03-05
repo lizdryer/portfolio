@@ -111,6 +111,7 @@ a:hover {
     padding-right: 30px;
     padding-top: 5vh;
     background-color: rgb(44, 53, 61);
+    z-index: 2;
 }
 
 .sidebar img {
@@ -135,4 +136,59 @@ a:hover {
 .nav * {
     margin-bottom: 14px;
     margin-left: auto;
+}
+
+.footer {
+    height: 10vh;
+    width: 100%;
+    margin: auto;
+    margin-top: 10vh;
+    padding-top: 15vh;
+    padding-bottom: 10vh;
+    font-size: 5vw;
+    justify-content: center;
+    display: flex;
+    background-color: #0a0a0a;
+    z-index: 1;
+    overflow: hidden;
+}
+
+i {
+    width: 100%;
+    text-align: center;
+}
+
+.footer>a {
+    width: 33%;
+    opacity: 100%;
+    transition: opacity .2s;
+    border-bottom: 0px;
+}
+
+.footer>a:hover {
+    opacity: 25%;
+}
+
+.footer>a>p {
+    font-size: 30px;
+    margin-top: 0px;
+    display: block;
+    text-transform: capitalize;
+    border-bottom: 0px solid white;
+    width: fit-content;
+    margin: auto;
+    opacity: 100%;
+    transition: border-bottom .2s;
+}
+
+.footer>a:hover>p {
+    border: none;
+    border-radius: 6px;
+    border-bottom: 3px solid white;
+}
+
+@media screen and (max-width: 896px) {
+    .footer>a>p {
+        display: none;
+    }
 }
